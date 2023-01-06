@@ -6,6 +6,8 @@ import sys
 #primera implementación
 def factorial_iterativo(n):
     respuesta = 1
+    if n == 0:
+        return respuesta
     while n > 1:
         respuesta *= n
         n -= 1

@@ -4,7 +4,7 @@ class Automovil:
 
     def __ini__(self, modelo, marca, color):
         self.modelo = modelo
-        self. marca = marca
+        self.marca = marca
         self.color = color
         self._estado = 'En reposo'
         self._motor = Motor(cilindros = 4) 
